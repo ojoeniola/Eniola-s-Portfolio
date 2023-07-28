@@ -1,0 +1,98 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --border: 1px solid #0d6efd;
+}     
+    .btns {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.contact-link {
+  margin: 30px;
+  border-radius: 5px;
+  border-color: var(--bs-indigo);
+  color: white;
+  background-color: var(--bs-indigo);
+  border: none;
+  padding: 25px;
+  text-decoration: none;
+}
+.about-link {
+  border-radius: 5px;
+  color: var(--bs-indigo);
+  border: 1px solid var(--bs-indigo);
+  border-color: var(--bs-indigo);
+  background-color: white;
+  padding: 25px;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 50px;
+  padding-top: 60px;
+}
+.mail {
+  display:block;
+  text-align: center;
+}
+.paragraph {
+  padding: 0 20px;
+}
+.contents {
+  display: flex;
+  width: 70px;
+}
+.col-sm-4 {
+  border: 4px solid white;
+  border-radius: none;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0.8, 0.8);
+}
+.row {
+  padding-top: 20px;
+  max-width: 100%;
+}
+.primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--bs-indigo);
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+}
+img {
+  border: 10px solid whitesmoke;
+
+}
